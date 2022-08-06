@@ -1,0 +1,65 @@
+body{
+    background: rgb(225, 196, 116);
+    border-style:dotted;
+    border-width: thick;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+h1,p{
+    text-align: center;
+}
+form{
+    padding: 10px;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div.instn{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+div.scale{
+    text-align: center;
+}
+div>span.five{
+    background: lightgreen;
+    margin-left: 5px;
+    border: 1px solid black;
+    padding: 2px;
+}
+div>span.four{
+    background: rgb(217, 77, 64);
+    padding:2px;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+div>span.three{
+    background: lightskyblue;
+    padding:2px;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+div>span.two{
+    background: rgb(195, 77, 51);
+    padding:2px;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+div>span.one{
+    background: rgb(142, 136, 136);
+    padding:2px;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+label[for="sname"],label[for="sid"],label[for="gender"],label[for="male"],label[for="female"],
+label[for="course"],label[for="sem"],label[for="email"],label[for="sub"],label[for="tname"]
+{
+    width:200px;
+    display: inline-block;
+}
+label[for="q"]{
+    vertical-align: bottom;   
+    display: inline-block;
+}
